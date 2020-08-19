@@ -4,4 +4,4 @@
 
 Search APIs for [FAIR Data Point](https://github.com/NLeSC/fairdatapoint).
 
-At the moment, only Virtosuo SPARQL database is supported for searching.
+At the moment, only Virtuoso SPARQL database is supported for searching.
