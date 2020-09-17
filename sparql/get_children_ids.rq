@@ -6,7 +6,7 @@ PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX r3d: <http://www.re3data.org/schema/3-0#>
 #PREFIX bif: <http://www.openlinksw.com/schemas/bif#>  # for Virtuoso
 
-SELECT (?o AS ?ChildrenID)
+SELECT DISTINCT (?o AS ?ChildrenID)
 WHERE {
     { ?_id_iri r3d:dataCatalog ?o . }
     UNION
