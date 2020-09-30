@@ -4,7 +4,7 @@
 
 #PREFIX bif: <http://www.openlinksw.com/schemas/bif#>  # for Virtuoso
 
-SELECT ?s ?p ?o
+SELECT DISTINCT ?s ?p ?o
 WHERE {
     ?s ?p ?o .
     ?o <bif:contains> ?_text .
